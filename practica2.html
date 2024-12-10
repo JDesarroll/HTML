@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Productos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        img {
+            width: 100px;
+            height: auto;
+        }
+
+        .icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+
+        td {
+            vertical-align: top;
+        }
+
+        .icon-row {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Lista de Productos</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Imagen</th>
+                    <th>Nombre</th>
+                    <th>Descripción</th>
+                    <th>Unidades Disponibles</th>
+                    <th>Categoría</th>
+                    <th>Precio</th>
+                    <th>Dimensiones (A x A x P)</th>
+                    <th>Peso</th>
+                    <th>Color(es) Disponibles</th>
+                    <th>Modelo</th>
+                    <th>Marca</th>
+                    <th>Garantía</th>
+                    <th>Fecha de Lanzamiento</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="images/producto1.jpg" alt="Producto 1"></td>
+                    <td>Smartphone X10</td>
+                    <td>Smartphone de última generación con cámara de 48MP y pantalla de 6.5 pulgadas.</td>
+                    <td>50</td>
+                    <td>Electrónica</td>
+                    <td>$599.99</td>
+                    <td>16cm x 7.5cm x 0.9cm</td>
+                    <td>180g</td>
+                    <td><div class="icon-row"><img src="icons/blue-icon.png" class="icon" alt="Color azul">Azul</div>
+                        <div class="icon-row"><img src="icons/black-icon.png" class="icon" alt="Color negro">Negro</div>
+                    </td>
+                    <td>SmartX10-2024</td>
+                    <td>SmartTech</td>
+                    <td>2 años</td>
+                    <td>01/12/2024</td>
+                </tr>
+                <tr>
+                    <td><img src="images/producto2.jpg" alt="Producto 2"></td>
+                    <td>Laptop UltraSlim</td>
+                    <td>Laptop ultradelgada con procesador Intel Core i7 y 16GB de RAM.</td>
+                    <td>20</td>
+                    <td>Computadoras</td>
+                    <td>$999.00</td>
+                    <td>30cm x 22cm x 1.5cm</td>
+                    <td>1.3kg</td>
+                    <td><div class="icon-row"><img src="icons/silver-icon.png" class="icon" alt="Color plata">Plata</div></td>
+                    <td>UltraSlim-X1</td>
+                    <td>TechPro</td>
+                    <td>1 año</td>
+                    <td>15/11/2024</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
